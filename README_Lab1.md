@@ -8,3 +8,6 @@ Metoda ConnectedComponents din aceasta clasa genereaza, intai, numarul de compon
 
 Pentru partea de bonus, am implementat o noua clasa RandTree, cu metoda generateTree. Aceasta primeste ca parametru un numar, ce reprezinta numarul maxim de fii pe care ii poate avea un nod oarecare (intre 0 si parametrul respectiv). Avem doi indici ai clasei, level si index. Level memoreaza nivelul actual(cu cat ne afundam mai tare in fii, cu atat creste nivelul, apoi cand ne intoarcem nivelul scade), si value memoreaza valoarea nodului actual(acelasi principiu ca si la level).
 Cu ajutorul functiei nextInt din java.util.Random, generam un numar random de fii intre 0 si nr pornind de la nodul-radacina si, petntru fiecare fiu implementat, repetam procesul.
+
+Note* : - nu am reusit sa pun optiunile -Xmx4G -Xms4G, asa ca nu stiu cum se comporta tabelul la input-uri mari, dar ar trebui sa fie in regula
+        - pentru partea de bonus, algoritmul merge in regula pentru arbori binari generati random
