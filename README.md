@@ -1,4 +1,8 @@
-Laborator 1
+- Laborator 2
+
+Am implementat tot ce este cerut pentru partile obligatorie si optionala. Urmeaza sa fie implementata si partea de bonus!
+
+- Laborator 1
 
 Pentru partea obligatorie, am urmarit cerintele si am afisat la fiecare pas ce se cerea.
 
@@ -11,7 +15,3 @@ Cu ajutorul functiei nextInt din java.util.Random, generam un numar random de fi
 
 Note* : - nu am reusit sa pun optiunile -Xmx4G -Xms4G, asa ca nu stiu cum se comporta tabelul la input-uri mari, dar ar trebui sa fie in regula
         - pentru partea de bonus, algoritmul merge in regula pentru arbori binari generati random
- 
-Laborator 2
-
-Am implementat tot ce este cerut pentru partile obligatorie si optionala. Urmeaza sa fie implementata si partea de bonus!
