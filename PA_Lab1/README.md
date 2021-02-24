@@ -1,4 +1,4 @@
-#Laborator 1
+PA - Laborator 1
 
 Pentru partea obligatorie, am urmarit cerintele si am afisat la fiecare pas ce se cerea.
 
