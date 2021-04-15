@@ -1,3 +1,5 @@
+Partile Obligatorie, Optionala si Bonus au fost implementate!<br>
+
 Din clasa Main se pot schimba toate "variabilele" jocului : numarul de jucatori (dimensiunea vectorului players), numarul de "noduri" dupa care se creeaza Token-urile (index-ul dat obiectului gameBoard in constructor), <br>
 Statusul fiecarui jucator (in constructorul fiecarui player, isBot reprezinta o valoare booleana care decide daca userul este bot sau player manual, iar parametrul boolean isSmart se aplica botilor si decide daca acesta implementeaza o maniera "smart" de a alege jetoanele!). Metoda de a alege smart este aceea de a lua jetoanele in ordine descrescatoare in concordanta cu valoarea lor, astfel blocand circuitele "valoroase" ale celorlalti playeri si castigand, la randul lui, valoare. Metode simpla de a alege jetoane este aceea de a lua urmatorul jeton available in ordine crescatoare.<br>
 
