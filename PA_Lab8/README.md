@@ -6,4 +6,4 @@ Pentru partea optionala, am importat din CSV-ul IMDB, local, informatiile din pr
 
 Pentru partea bonus, am folosit C3P0 pentru a crea un connection pool, si, cu ajutorul unui ThreadPoolExecutor, efectuez operatii asupra bazei de date in maniera multi-threaded.<br>
 
-Atasez si un clip video care sa arate executia programului cu ajutorul Visual VM!
+Atasez si un clip video care sa arate executia programului cu ajutorul Visual VM! (Threads_DEMO.mkv)
