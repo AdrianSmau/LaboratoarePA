@@ -13,19 +13,20 @@ public class FindByID {
     public void setEntityManager(EntityManager entityManager) {
         this.entityManager = entityManager;
     }
-    public Object findByID(int id){
-        if(this.entityManager != null){
-            Movie movie = entityManager.find(Movie.class,id);
-            if(movie != null)
+
+    public Object findByID(int id) {
+        if (this.entityManager != null) {
+            Movie movie = entityManager.find(Movie.class, id);
+            if (movie != null)
                 return movie;
-            Actor actor = entityManager.find(Actor.class,id);
-            if(actor != null)
+            Actor actor = entityManager.find(Actor.class, id);
+            if (actor != null)
                 return actor;
-            Genre genre = entityManager.find(Genre.class,id);
-            if(genre != null)
+            Genre genre = entityManager.find(Genre.class, id);
+            if (genre != null)
                 return genre;
-            Director director = entityManager.find(Director.class,id);
-            if(director != null)
+            Director director = entityManager.find(Director.class, id);
+            if (director != null)
                 return director;
             System.out.println("\n ----- [ERROR] No Entity found with the given ID!... ----- \n");
             return null;

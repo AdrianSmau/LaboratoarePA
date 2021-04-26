@@ -5,7 +5,7 @@ import java.io.Serializable;
 
 @Entity
 @Table(name = "directors")
-@NamedQueries({@NamedQuery(name = "Director.findByID", query = "SELECT x FROM Director x WHERE x.id=:id"),@NamedQuery(name="Director.findByName", query = "SELECT x FROM Director x WHERE x.name=:name")})
+@NamedQueries({@NamedQuery(name = "Director.findByID", query = "SELECT x FROM Director x WHERE x.id=:id"), @NamedQuery(name = "Director.findByName", query = "SELECT x FROM Director x WHERE x.name=:name")})
 public class Director implements Serializable {
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE)

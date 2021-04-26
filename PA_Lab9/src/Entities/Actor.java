@@ -6,7 +6,7 @@ import java.sql.Date;
 
 @Entity
 @Table(name = "actors")
-@NamedQueries({@NamedQuery(name = "Actor.findByID", query = "SELECT x FROM Actor x WHERE x.id=:id"),@NamedQuery(name="Actor.findByName", query = "SELECT x FROM Actor x WHERE x.name=:name")})
+@NamedQueries({@NamedQuery(name = "Actor.findByID", query = "SELECT x FROM Actor x WHERE x.id=:id"), @NamedQuery(name = "Actor.findByName", query = "SELECT x FROM Actor x WHERE x.name=:name")})
 public class Actor implements Serializable {
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE)

@@ -8,26 +8,28 @@ public class EntityManagerSingleton {
     private final String persistence_unit_name = "Lab9App";
     private EntityManagerFactory entityManagerFactory;
 
-    private EntityManagerSingleton(){}
+    private EntityManagerSingleton() {
+    }
 
-    public static EntityManagerSingleton getInstance(){
+    public static EntityManagerSingleton getInstance() {
         return instance;
     }
 
-    public EntityManagerFactory getEntityManagerFactory(){
-        if(entityManagerFactory == null)
+    public EntityManagerFactory getEntityManagerFactory() {
+        if (entityManagerFactory == null)
             createEntityManagerFactory();
         return entityManagerFactory;
     }
 
-    public void closeEntityManagerFactory(){
-        if(entityManagerFactory != null){
+    public void closeEntityManagerFactory() {
+        if (entityManagerFactory != null) {
             entityManagerFactory.close();
             entityManagerFactory = null;
             System.out.println("\n ----- [NOTIFICATION] Persistence finished at: " + new java.util.Date() + " ----- \n");
         }
     }
-    private void createEntityManagerFactory(){
+
+    private void createEntityManagerFactory() {
         this.entityManagerFactory = Persistence.createEntityManagerFactory(this.persistence_unit_name);
         System.out.println("\n ----- [NOTIFICATION] Persistence started at: " + new java.util.Date() + " ----- \n");
     }

@@ -8,7 +8,7 @@ import java.util.List;
 
 @Entity
 @Table(name = "movies")
-@NamedQueries({@NamedQuery(name = "Movie.findByID", query = "SELECT x FROM Movie x WHERE x.id=:id"),@NamedQuery(name="Movie.findByName", query = "SELECT x FROM Movie x WHERE x.title=:title")})
+@NamedQueries({@NamedQuery(name = "Movie.findByID", query = "SELECT x FROM Movie x WHERE x.id=:id"), @NamedQuery(name = "Movie.findByName", query = "SELECT x FROM Movie x WHERE x.title=:title")})
 public class Movie implements Serializable {
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE)
