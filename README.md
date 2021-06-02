@@ -1,4 +1,4 @@
-Fiecare README aferent fiecarui laborator in parte se afla in folder-ul specific acestuia!
+Fiecare README aferent fiecarui laborator in parte se afla in folder-ul specific acestuia!<br>
 Lab1 - Introduction: Java Platform, Standard Edition<br>
 Lab2 - Objects and Classes<br>
 Lab3 - Interfaces. Generics. Collections<br>
